@@ -1,17 +1,17 @@
 import streamlit as st
 import pickle
 
-dec_clf=pickle.load(open("C:\\Users\\DELL\\Desktop\\fire1\\decisiontreeclf.sav",'rb'))
+dec_clf=pickle.load(open("decisiontreeclf.sav",'rb'))
 
-dec_reg=pickle.load(open("C:\\Users\\DELL\\Desktop\\fire1\\decisionregressior.sav",'rb'))
+dec_reg=pickle.load(open("decisionregressior.sav",'rb'))
 
-reg_clf=pickle.load(open("C:\\Users\\DELL\\Desktop\\fire1\\randomforestclf.sav",'rb'))
+reg_clf=pickle.load(open("randomforestclf.sav",'rb'))
 
-reg_reg=pickle.load(open("C:\\Users\\DELL\\Desktop\\fire1\\randomforest.sav",'rb'))
+reg_reg=pickle.load(open("randomforest.sav",'rb'))
 
-svm_clf=pickle.load(open("C:\\Users\\DELL\\Desktop\\fire1\\svc.sav",'rb'))
+svm_clf=pickle.load(open("svc.sav",'rb'))
 
-svm_reg=pickle.load(open("C:\\Users\\DELL\\Desktop\\fire1\\svr.sav",'rb'))
+svm_reg=pickle.load(open("svr.sav",'rb'))
 
 st.title("Forest Fire Prediction")
 
